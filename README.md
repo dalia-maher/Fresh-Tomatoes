@@ -12,7 +12,7 @@ Once Python is installed, you can download the project ZIP file or clone it to y
 `or`
 clone it to your local machine using Git's command line
 ```
-git clone https://github.com/dalia-maher/Fresh_Tomatoes
+git clone https://github.com/dalia-maher/Fresh-Tomatoes
 ```
 
 ## To run this project
