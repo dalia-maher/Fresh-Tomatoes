@@ -1,4 +1,4 @@
-# Fresh Tomatoes Movie Trailer Website 
+# "Fresh Tomatoes" - Movie Trailers Website 
 
 This webiste aims to display a list of movies with their related info such as (title, poster, trailer, ... etc.) using a Python data structure. A list of movies are displayed and by clicking on any of the listed movies, a trailer for that movie opens in a popup window. This project was done as a part of the Full Stack Web Developer Nanodegree on [Udacity](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 
