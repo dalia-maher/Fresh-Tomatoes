@@ -30,6 +30,12 @@ git clone https://github.com/dalia-maher/Fresh-Tomatoes
 
 - If you just want to run the project without editing, you can open the html file "fresh_tomatoes.html" in your browser
 
+## Project Functionalities
+
+1. You can find a list of nine movie titles and posters rendered on the page in the browser
+2. Clicking on the movie should open a popup window that shows the trailer of the movie.
+3. Clicking on the "x" button in the upper right corner of the trailer preview should close the popup.
+
 ## Project Contents
 
 ### entertainment_center.py:

@@ -1,5 +1,6 @@
-
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title>
 
@@ -61,23 +62,21 @@
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
             var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
-              'id': 'trailer-video',
-              'type': 'text-html',
-              'src': sourceUrl,
-              'frameborder': 0
+                'id': 'trailer-video',
+                'type': 'text-html',
+                'src': sourceUrl,
+                'frameborder': 0
             }));
         });
         // Animate in the movies when the page loads
         $(document).ready(function () {
-          $('.movie-tile').hide().first().show("fast", function showNext() {
-            $(this).next("div").show("fast", showNext);
-          });
+            $('.movie-tile').hide().first().show("fast", function showNext() {
+                $(this).next("div").show("fast", showNext);
+            });
         });
-    </script>
-</head>
+        </script>
+    </head>
 
-<!DOCTYPE html>
-<html lang="en">
   <body>
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
@@ -91,7 +90,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -103,60 +102,50 @@
       </div>
     </div>
     <div class="container">
-      
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Ny_hRfvsmU8" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg" width="220" height="342">
-    <h3>Toy Story (1995)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Ny_hRfvsmU8" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg" width="220" height="342">
+        <h3>Toy Story (1995)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="uZNHIU3uHT4" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342">
-    <h3>Avatar (2009)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="uZNHIU3uHT4" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342">
+        <h3>Avatar (2009)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="3PsUJFEBC74" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg" width="220" height="342">
-    <h3>School of Rock (2003)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="3PsUJFEBC74" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg" width="220" height="342">
+        <h3>School of Rock (2003)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="c3sBBRxDAqk" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg" width="220" height="342">
-    <h3>Ratatouille (2007)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="c3sBBRxDAqk" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg" width="220" height="342">
+        <h3>Ratatouille (2007)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="dtiklALGz20" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg" width="220" height="342">
-    <h3>Midnight in Paris (2011)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="dtiklALGz20" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg" width="220" height="342">
+        <h3>Midnight in Paris (2011)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="mfmrPu43DF8" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg" width="220" height="342">
-    <h3>The Hunger Games (2012)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="mfmrPu43DF8" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg" width="220" height="342">
+        <h3>The Hunger Games (2012)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="a-7MWYqicC0" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg" width="220" height="342">
-    <h3>The Avengers (2012)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="a-7MWYqicC0" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg" width="220" height="342">
+        <h3>The Avengers (2012)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="sutgWjz10sM" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Divergent.jpg" width="220" height="342">
-    <h3>Divergent (2014)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="sutgWjz10sM" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Divergent.jpg" width="220" height="342">
+        <h3>Divergent (2014)</h3>
+      </div>
 
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="0vxOhd4qlnA" data-toggle="modal" data-target="#trailer">
-    <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" width="220" height="342">
-    <h3>Interstellar (2014)</h3>
-	<h3>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="0vxOhd4qlnA" data-toggle="modal" data-target="#trailer">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" width="220" height="342">
+        <h3>Interstellar (2014)</h3>
+      </div>
 
     </div>
   </body>
